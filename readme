@@ -1,0 +1,66 @@
+# Jeu  - README
+
+Ce projet est un jeu simple, où l'utilisateur doit déplacer un joueur pour attraper les balles tombantes. Le jeu suit un système de score, de vies et de meilleur score local. Le code est construit avec HTML, CSS et JavaScript.
+
+## Structure du Projet
+
+Le projet est organisé de la manière suivante :
+
+Un dossier Football-trophy-clone qui contient : |-- un fichier index.html
+                                                |--style/style.css
+                                                |--js/main.js
+                                                |--ui_assets/ball.svg, goal-keeper.svg
+
+
+### Détails des fichiers :
+
+- **index.html** : C'est le fichier principal contenant la structure de la page du jeu. Il inclut tous les autres fichiers nécessaires (CSS et JS).
+- **style.css** : Ce fichier contient les styles généraux du jeu. Il gère la disposition des éléments,la typographie, les animations, et le style du fond.
+- **script.js** : Le fichier JavaScript contient la logique du jeu. Il gère les événements de clavier, la gestion du score, des vies et des animations.
+- **/assets** : Ce dossier contient les images et autres ressources utilisées dans le jeu (par exemple, l'icône du joueur et de la balle).
+- **/index.css** : Ce fichier CSS est optionnel et est utilisé pour le style d'une page d'accueil ou d'un menu si présent.
+
+## Instructions d'Installation
+
+### Prérequis
+
+- Aucun prérequis particulier. Vous avez juste besoin d'un navigateur moderne (Chrome, Firefox, Safari).
+
+### Étapes pour Tester le Jeu
+
+1. **Dézipper le zip** sur votre machine locale. 
+
+2. **Ouvrir le dossier avec vscode** 
+
+3. **Ouvrir la page HTML** :
+   - Ouvrez le fichier `index.html` dans votre navigateur préféré en double-cliquant dessus ou en copiant le path que vous collez dans votre navigateur. 
+
+   Exemple pour ouvrir avec le navigateur :
+   - Ouvrez votre navigateur, puis faites glisser le fichier `index.html` dans la fenêtre du navigateur.
+
+### Tester le Jeu
+
+- **Lancement du jeu** : Le jeu démarre automatiquement lorsque vous cliquer sur le bouton **Démarrer**. Vous verrez les balles pleuvoir. Déplacez le joueur pour attraper les balles.
+- **Pause** : Vous pouvez mettre le jeu en pause en appuyant sur le bouton **Pause**.
+- **Gestion des scores** : Le score sera mis à jour à chaque fois que vous attraperez une balle.
+- **Game Over** : Lorsque vous laissez tomber la balle trois fois, un écran "Game Over" apparaîtra avec votre score final.
+
+### Contrôles du Jeu
+
+- **Déplacer le joueur** : Utilisez les flèches `gauche` et `droite` pour déplacer le joueur.
+- **Recommencer** : Pour que le jeu redémarre après un "Game Over" appuyer sur "Rejouer".
+
+## Fonctionnalités
+
+- **Score** : Un score est comptabilisé à chaque balle attrapée.
+- **Meilleur Score** : Le meilleur score est sauvegardé dans le stockage local du navigateur (`localStorage`).
+- **Vies** : Vous avez 3 vies. Le jeu se termine si vous perdez toutes vos vies.
+- **Animation** : Les balles tombent avec une animation CSS.
+
+
+## Licence
+
+### Auteur
+
+Ce projet a été créé par **Peace Solange ADOKPO**. Vous pouvez me contacter à **peace.adokpo@epitech.eu**.
+
